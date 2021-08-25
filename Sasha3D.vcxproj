@@ -151,10 +151,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\glad.c" />
-    <ClCompile Include="src\WinMainTriangle.cpp" />
-    <ClCompile Include="src\WinMainWindow.cpp">
+    <ClCompile Include="src\examples\WinMainShader.cpp" />
+    <ClCompile Include="src\examples\WinMainTriangle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="src\examples\WinMainWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\SH3D_Shader.cpp" />
+    <ClCompile Include="src\stb_image.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Sasha3D\SH3D_Shader.hpp" />
+    <ClInclude Include="include\STB_IMAGE\stb_image.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
