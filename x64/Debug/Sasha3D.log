@@ -1,3 +1,6 @@
-﻿  stb_image.cpp
+﻿  WinMain.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Users\MagnoVJ\Desktop\Sasha3D\include\glad\glad.h(32): message : see previous definition of 'APIENTRY'
+C:\Users\MagnoVJ\Desktop\Sasha3D\src\Cryptovis\WinMain.cpp(85): warning C4715: 'WinMain': not all control paths return a value
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   Sasha3D.vcxproj -> C:\Users\MagnoVJ\Desktop\Sasha3D\bin\Debug\x64\Sasha3D.exe
